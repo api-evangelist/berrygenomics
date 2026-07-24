@@ -1,7 +1,26 @@
 aid: berrygenomics
-name: berrygenomics
-description: berrygenomics is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/berrygenomics.png
+name: Berry Genomics
+description: Berry Genomics (Beijing Berry and Kang Biotechnology Co., Ltd., 贝瑞基因)
+  is a Chinese genomics and genetic-testing company operating across reproductive
+  health screening, hereditary disease detection, tumor and cancer diagnostics, laboratory
+  solutions, sequencing equipment and reagents, and genomic big-data services. Surfaced
+  as a portfolio company of Qiming Venture Partners and added to the API Evangelist
+  network as a stub for enrichment. The company publishes a corporate marketing site
+  (news, investor relations, careers, and a legal statement) but does not currently
+  expose a public developer portal, API documentation, or machine-readable API artifacts,
+  so this profile carries identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/berrygenomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Genomics
+- Genetic Testing
+- Healthcare
+- Biotechnology
+- Diagnostics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://berrygenomics.com
+  url: https://www.berrygenomics.com
+- type: TermsOfService
+  url: https://www.berrygenomics.com/cmscontent/327.html
+- type: Blog
+  url: https://www.berrygenomics.com/column/93/
+- type: DomainSecurity
+  url: security/berrygenomics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
